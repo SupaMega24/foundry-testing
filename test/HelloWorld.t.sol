@@ -14,6 +14,6 @@ contract HelloWorldTest is Test {
     function test_Greeting() public view {
         // test that the HelloWorld contract prooces "Hello, World!"
         assertEq(helloWorld.greeting(), "Hello, World!");
-        console.log(helloWorld.greeting());
+        console.log(helloWorld.greeting()); // do -vvv to see log
     }
 }
