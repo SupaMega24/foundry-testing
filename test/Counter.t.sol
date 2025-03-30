@@ -26,7 +26,7 @@ contract CounterTest is Test {
         counter.dec();
     }
 
-    // test to decrease by 1 to get 4
+    // test to decrease by 1 from 5 to get 4
     function test_CounterDecreases() public {
         counter.inc(); // increment first
         counter.inc(); // increment second
